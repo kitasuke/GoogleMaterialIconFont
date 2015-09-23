@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/cocoapods/l/GoogleMaterialIconFont.svg?style=flat)](http://cocoapods.org/pods/GoogleMaterialIconFont)
 [![Platform](https://img.shields.io/cocoapods/p/GoogleMaterialIconFont.svg?style=flat)](http://cocoapods.org/pods/GoogleMaterialIconFont)
 
-Google Material Design Icons for ObjC or Swift project
+Google Material Design Icons for Swift or ObjC project
 
 This library is inspired by [FontAwesome.swift](https://github.com/thii/FontAwesome.swift)  
 Both Swift and Objctive-C are supported  
