@@ -15,7 +15,7 @@ public extension String {
 }
 
 public extension NSString {
-    public static func meterialIcon(font: MaterialIconFont) -> NSString {
+    public static func materialIcon(font: MaterialIconFont) -> NSString {
         return NSString(string: String.materialIcon(font))
     }
 }
