@@ -1,5 +1,7 @@
 # GoogleMaterialIconFont
 
+Google Material Design Icons for ObjC or Swift project
+
 [![CI Status](http://img.shields.io/travis/kitasuke/GoogleMaterialIconFont.svg?style=flat)](https://travis-ci.org/kitasuke/GoogleMaterialIconFont)
 [![Version](https://img.shields.io/cocoapods/v/GoogleMaterialIconFont.svg?style=flat)](http://cocoapods.org/pods/GoogleMaterialIconFont)
 [![License](https://img.shields.io/cocoapods/l/GoogleMaterialIconFont.svg?style=flat)](http://cocoapods.org/pods/GoogleMaterialIconFont)
@@ -22,7 +24,7 @@ pod "GoogleMaterialIconFont"
 
 ## Author
 
-kitasuke, yusuke2759@gmail.com
+kitasuke
 
 ## License
 
