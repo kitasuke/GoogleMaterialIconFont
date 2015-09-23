@@ -9,7 +9,8 @@
 Google Material Design Icons for ObjC or Swift project
 
 This library is inspired by [FontAwesome.swift](https://github.com/thii/FontAwesome.swift)  
-Both Swift and Objctive-C are supported
+Both Swift and Objctive-C are supported  
+See [Material icons](https://www.google.com/design/icons/) more detail
 
 ## Usage
 
