@@ -34,9 +34,9 @@ label.font = [UIFont materialIconOfSize:32];
 
 ## Requirements
 
-iOS8 or later
-Swift 1.2 or later
-Xcode 6.3 or later
+iOS8 or later  
+Swift 1.2 or later  
+Xcode 6.3 or later  
 
 ## Installation
 
@@ -86,6 +86,6 @@ kitasuke
 
 ## License
 
-This library uses [material-design-icons by Googld](https://github.com/google/material-design-icons) to create icon font file which is `GoogleMaterialIconFont.ttr`. Therefore, `GoogleMaterialIconFont.ttr` is available under the [Creative Common Attribution 4.0 International License (CC-BY 4.0)](http://creativecommons.org/licenses/by/4.0/)
+This library uses [material-design-icons by Googld](https://github.com/google/material-design-icons) to create icon font file which is `GoogleMaterialIconFont.ttf`. Therefore, `GoogleMaterialIconFont.ttf` is available under the [Creative Common Attribution 4.0 International License (CC-BY 4.0)](http://creativecommons.org/licenses/by/4.0/)
 
 GoogleMaterialIconFont is available under the MIT license. See the LICENSE file for more info.
