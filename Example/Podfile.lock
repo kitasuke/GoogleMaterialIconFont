@@ -1,0 +1,14 @@
+PODS:
+  - GoogleMaterialIconFont (0.1.0)
+
+DEPENDENCIES:
+  - GoogleMaterialIconFont (from `../`)
+
+EXTERNAL SOURCES:
+  GoogleMaterialIconFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GoogleMaterialIconFont: cd1867ae94c1c8a2ce26a2fe97b6b356e1f26b2e
+
+COCOAPODS: 0.38.0
