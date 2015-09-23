@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GoogleMaterialIconFont: cd1867ae94c1c8a2ce26a2fe97b6b356e1f26b2e
+  GoogleMaterialIconFont: a1b25f888cf154eaaf2be67cd108e29abd735875
 
 COCOAPODS: 0.38.0

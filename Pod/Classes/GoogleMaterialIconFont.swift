@@ -15,7 +15,7 @@ public extension String {
 }
 
 public extension NSString {
-    public static func meterialIcon(font: MaterialIconFont) -> NSString {
+    public static func materialIcon(font: MaterialIconFont) -> NSString {
         return NSString(string: String.materialIcon(font))
     }
 }
@@ -54,7 +54,7 @@ private class FontLoader {
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {
             let errorDescription: CFStringRef = CFErrorCopyDescription(error!.takeUnretainedValue())
-            let nsError = error!.takeUnretainedValue() as NSError
+            let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
             NSException(name: NSInternalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
         }
     }
