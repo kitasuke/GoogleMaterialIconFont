@@ -6,7 +6,7 @@
 //
 //
 
-@objc public enum MaterialIconFont: NSInteger {
+@objc public enum MaterialIconFont: Int {
     case ThreeDRotation
     case AccessAlarm
     case AccessAlarms
