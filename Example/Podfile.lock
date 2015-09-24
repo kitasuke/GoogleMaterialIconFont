@@ -1,5 +1,5 @@
 PODS:
-  - GoogleMaterialIconFont (0.2.0)
+  - GoogleMaterialIconFont (0.2.1)
 
 DEPENDENCIES:
   - GoogleMaterialIconFont (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GoogleMaterialIconFont: 01b9dfd78623436134d660db00a2cc93b2e14920
+  GoogleMaterialIconFont: 32dd19dcad83d8a68d41820bb83902b942b2b7c9
 
 COCOAPODS: 0.38.2
