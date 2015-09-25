@@ -12,6 +12,8 @@ This library is inspired by [FontAwesome.swift](https://github.com/thii/FontAwes
 Both Swift and Objctive-C are supported  
 See example project or [Material icons](https://www.google.com/design/icons/) more detail
 
+<img src="https://raw.githubusercontent.com/wiki/kitasuke/GoogleMaterialIconFont/images/demo01.png" width="320" height="586">
+
 ## Usage
 
 ### Swift
