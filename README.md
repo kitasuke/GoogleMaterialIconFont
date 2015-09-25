@@ -83,9 +83,6 @@ $ brew install carthage
 Copy all the files in `Pod` directory into your project.
 Make sure that `GoogleMaterialIconFont.ttf` is specified into `Fonts provided by application` in your project's `info.plist`
 
-## Author
-
-kitasuke
 
 ## License
 
