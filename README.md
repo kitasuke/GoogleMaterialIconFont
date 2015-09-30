@@ -36,9 +36,9 @@ label.font = [UIFont materialIconOfSize:32];
 
 ## Requirements
 
-iOS8+
-Swift 1.2+
-Xcode 6.3+
+iOS8+  
+Swift 1.2+  
+Xcode 6.3+  
 
 for iOS7 support  
 Follow [Manual usage instruction](#Manual Usage)
