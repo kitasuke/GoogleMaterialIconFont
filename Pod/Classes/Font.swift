@@ -165,8 +165,8 @@
     case Class
     case ClearAll
     case Clear
-    case ClosedCaption
     case Close
+    case ClosedCaption
     case CloudCircle
     case CloudDone
     case CloudDownload
