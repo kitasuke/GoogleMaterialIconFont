@@ -689,17 +689,17 @@
     case SignalWifi4Bar
     case SignalWifi4BarLock
     case SignalWifiOff
-    case SignalWifiStatusbar1Bar26
-    case SignalWifiStatusbar2Bar26
-    case SignalWifiStatusbar3Bar26
-    case SignalWifiStatusbar4Bar26
-    case SignalWifiStatusbarConnectedNoInternet126
-    case SignalWifiStatusbarConnectedNoInternet226
-    case SignalWifiStatusbarConnectedNoInternet26
-    case SignalWifiStatusbarConnectedNoInternet326
-    case SignalWifiStatusbarConnectedNoInternet426
-    case SignalWifiStatusbarNotConnected26
-    case SignalWifiStatusbarNull26
+    case SignalWifiStatusbar1Bar
+    case SignalWifiStatusbar2Bar
+    case SignalWifiStatusbar3Bar
+    case SignalWifiStatusbar4Bar
+    case SignalWifiStatusbarConnectedNoInternet1
+    case SignalWifiStatusbarConnectedNoInternet2
+    case SignalWifiStatusbarConnectedNoInternet
+    case SignalWifiStatusbarConnectedNoInternet3
+    case SignalWifiStatusbarConnectedNoInternet4
+    case SignalWifiStatusbarNotConnected
+    case SignalWifiStatusbarNull
     case SimCardAlert
     case SimCard
     case SkipNext
@@ -752,7 +752,7 @@
     case TabletMac
     case Tablet
     case TabUnselected
-    case TactMail
+    case ContactMail
     case TagFaces
     case TapAndPlay
     case Terrain
