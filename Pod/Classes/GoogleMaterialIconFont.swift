@@ -23,14 +23,15 @@ public extension NSString {
 public extension UIFont {
     public static func materialIconOfSize(size: CGFloat) -> UIFont {
         var onceToken: dispatch_once_t = 0
-        let name = "GoogleMaterialIconFont"
-        
-        if UIFont.fontNamesForFamilyName(name).count == 0 {
+        let filename = "MaterialIcons-Regular"
+        let fontname = "Material Icons"
+
+        if UIFont.fontNamesForFamilyName(fontname).count == 0 {
             dispatch_once(&onceToken, { () -> Void in
-                FontLoader.loadFont(name)
+                FontLoader.loadFont(filename)
             })
         }
-        return UIFont(name: name, size: size)!
+        return UIFont(name: fontname, size: size)!
     }
 }
 
