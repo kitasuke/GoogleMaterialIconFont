@@ -38,3 +38,5 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+fastlane/
