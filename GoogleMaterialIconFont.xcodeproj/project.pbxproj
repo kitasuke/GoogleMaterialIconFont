@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EC4EA3F61BB293B500F48EBF /* GoogleMaterialIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4EA3F51BB293B500F48EBF /* GoogleMaterialIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC4EA4321BB2989700F48EBF /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EA4301BB2989700F48EBF /* Font.swift */; settings = {ASSET_TAGS = (); }; };
-		EC4EA4331BB2989700F48EBF /* GoogleMaterialIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EA4311BB2989700F48EBF /* GoogleMaterialIconFont.swift */; settings = {ASSET_TAGS = (); }; };
-		EC4EA4351BB2989F00F48EBF /* GoogleMaterialIconFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC4EA4341BB2989F00F48EBF /* GoogleMaterialIconFont.ttf */; settings = {ASSET_TAGS = (); }; };
+		EC4EA4321BB2989700F48EBF /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EA4301BB2989700F48EBF /* Font.swift */; };
+		EC4EA4331BB2989700F48EBF /* GoogleMaterialIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EA4311BB2989700F48EBF /* GoogleMaterialIconFont.swift */; };
+		EC7C05F61C5A8924005C6787 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC7C05F51C5A8924005C6787 /* MaterialIcons-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +19,7 @@
 		EC4EA3F71BB293B500F48EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4EA4301BB2989700F48EBF /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Pod/Classes/Font.swift; sourceTree = SOURCE_ROOT; };
 		EC4EA4311BB2989700F48EBF /* GoogleMaterialIconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleMaterialIconFont.swift; path = Pod/Classes/GoogleMaterialIconFont.swift; sourceTree = SOURCE_ROOT; };
-		EC4EA4341BB2989F00F48EBF /* GoogleMaterialIconFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GoogleMaterialIconFont.ttf; path = Pod/Assets/GoogleMaterialIconFont.ttf; sourceTree = SOURCE_ROOT; };
+		EC7C05F51C5A8924005C6787 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MaterialIcons-Regular.ttf"; path = "Pod/Assets/MaterialIcons-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 				EC4EA3F51BB293B500F48EBF /* GoogleMaterialIconFont.h */,
 				EC4EA4301BB2989700F48EBF /* Font.swift */,
 				EC4EA4311BB2989700F48EBF /* GoogleMaterialIconFont.swift */,
-				EC4EA4341BB2989F00F48EBF /* GoogleMaterialIconFont.ttf */,
+				EC7C05F51C5A8924005C6787 /* MaterialIcons-Regular.ttf */,
 				EC4EA3F71BB293B500F48EBF /* Info.plist */,
 			);
 			path = GoogleMaterialIconFont;
@@ -131,7 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC4EA4351BB2989F00F48EBF /* GoogleMaterialIconFont.ttf in Resources */,
+				EC7C05F61C5A8924005C6787 /* MaterialIcons-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +293,7 @@
 				EC4EA3FA1BB293B500F48EBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
