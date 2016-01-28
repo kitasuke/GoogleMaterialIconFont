@@ -13,9 +13,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8FB4C2B4526AAE06F1A60695 /* Pods_GoogleMaterialIconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6588275EF539A040B1020BFA /* Pods_GoogleMaterialIconFont_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		95C34184908701295799058D /* Pods_GoogleMaterialIconFont_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA513D73FB52D9140B4FED0 /* Pods_GoogleMaterialIconFont_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		EC4EA3C01BB27BD700F48EBF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EA3BF1BB27BD700F48EBF /* CollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8FB4C2B4526AAE06F1A60695 /* Pods_GoogleMaterialIconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6588275EF539A040B1020BFA /* Pods_GoogleMaterialIconFont_Example.framework */; };
+		95C34184908701295799058D /* Pods_GoogleMaterialIconFont_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA513D73FB52D9140B4FED0 /* Pods_GoogleMaterialIconFont_Tests.framework */; };
+		EC4EA3C01BB27BD700F48EBF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EA3BF1BB27BD700F48EBF /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
