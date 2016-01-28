@@ -1,0 +1,6 @@
+framework module GoogleMaterialIconFont {
+  umbrella header "GoogleMaterialIconFont-umbrella.h"
+
+  export *
+  module * { export * }
+}
