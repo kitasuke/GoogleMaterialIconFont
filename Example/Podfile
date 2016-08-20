@@ -1,12 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
+workspace './GoogleMaterialIconFont.xcworkspace'
 
-target 'GoogleMaterialIconFont_Example', :exclusive => true do
+target 'GoogleMaterialIconFont_Example' do
   pod "GoogleMaterialIconFont", :path => "../"
 end
 
-target 'GoogleMaterialIconFont_Tests', :exclusive => true do
+target 'GoogleMaterialIconFont_Tests' do
   pod "GoogleMaterialIconFont", :path => "../"
-
-  
 end

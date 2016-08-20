@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3737451B025466FF3A07CD89 /* Pods_GoogleMaterialIconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D6D4A4AD4B1B548CC9D614 /* Pods_GoogleMaterialIconFont_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8FB4C2B4526AAE06F1A60695 /* Pods_GoogleMaterialIconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6588275EF539A040B1020BFA /* Pods_GoogleMaterialIconFont_Example.framework */; };
-		95C34184908701295799058D /* Pods_GoogleMaterialIconFont_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA513D73FB52D9140B4FED0 /* Pods_GoogleMaterialIconFont_Tests.framework */; };
+		D2E3F3AF72B1A8990AF3215F /* Pods_GoogleMaterialIconFont_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFEA3246EE51AB5CB282055 /* Pods_GoogleMaterialIconFont_Tests.framework */; };
 		EC4EA3C01BB27BD700F48EBF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EA3BF1BB27BD700F48EBF /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13BEF0FB65AD5752A22DA0DF /* Pods-GoogleMaterialIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1882CEBAF676C2B314B6E60A /* Pods-GoogleMaterialIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		285F71C2F468D307C1EC920D /* Pods-GoogleMaterialIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		335A99F3313E12243D7E38E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		37D6D4A4AD4B1B548CC9D614 /* Pods_GoogleMaterialIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMaterialIconFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		398198ABAEA33B8AB1672888 /* GoogleMaterialIconFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GoogleMaterialIconFont.podspec; path = ../GoogleMaterialIconFont.podspec; sourceTree = "<group>"; };
-		4BA513D73FB52D9140B4FED0 /* Pods_GoogleMaterialIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMaterialIconFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56F6D4E742B32F08383C35A3 /* Pods-GoogleMaterialIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4B44FC9AB0267AECA46EF7A1 /* Pods-GoogleMaterialIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GoogleMaterialIconFont_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMaterialIconFont_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,10 +45,9 @@
 		607FACE51AFB9204008FA782 /* GoogleMaterialIconFont_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMaterialIconFont_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6588275EF539A040B1020BFA /* Pods_GoogleMaterialIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMaterialIconFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		705365307D500EC6A54C3286 /* Pods-GoogleMaterialIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		90276D36E8E3697753CFDCAC /* Pods-GoogleMaterialIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93B8BE19A9C84D82C0337E05 /* Pods-GoogleMaterialIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaterialIconFont_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A5095EF6C47BCF06611C528B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCFEA3246EE51AB5CB282055 /* Pods_GoogleMaterialIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMaterialIconFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4EA3BF1BB27BD700F48EBF /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB4C2B4526AAE06F1A60695 /* Pods_GoogleMaterialIconFont_Example.framework in Frameworks */,
+				3737451B025466FF3A07CD89 /* Pods_GoogleMaterialIconFont_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,13 +64,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C34184908701295799058D /* Pods_GoogleMaterialIconFont_Tests.framework in Frameworks */,
+				D2E3F3AF72B1A8990AF3215F /* Pods_GoogleMaterialIconFont_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39192D8D47C3E8C449B0E293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37D6D4A4AD4B1B548CC9D614 /* Pods_GoogleMaterialIconFont_Example.framework */,
+				DCFEA3246EE51AB5CB282055 /* Pods_GoogleMaterialIconFont_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +87,8 @@
 				607FACD21AFB9204008FA782 /* Example for GoogleMaterialIconFont */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				CB6542062F2C95F6D9C4F0A3 /* Pods */,
-				D9B0935EBAE548157759CFA5 /* Frameworks */,
+				7BAA5C2C307AF5E0A803432D /* Pods */,
+				39192D8D47C3E8C449B0E293 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,24 +151,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		CB6542062F2C95F6D9C4F0A3 /* Pods */ = {
+		7BAA5C2C307AF5E0A803432D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90276D36E8E3697753CFDCAC /* Pods-GoogleMaterialIconFont_Example.debug.xcconfig */,
-				56F6D4E742B32F08383C35A3 /* Pods-GoogleMaterialIconFont_Example.release.xcconfig */,
-				705365307D500EC6A54C3286 /* Pods-GoogleMaterialIconFont_Tests.debug.xcconfig */,
-				13BEF0FB65AD5752A22DA0DF /* Pods-GoogleMaterialIconFont_Tests.release.xcconfig */,
+				93B8BE19A9C84D82C0337E05 /* Pods-GoogleMaterialIconFont_Example.debug.xcconfig */,
+				1882CEBAF676C2B314B6E60A /* Pods-GoogleMaterialIconFont_Example.release.xcconfig */,
+				4B44FC9AB0267AECA46EF7A1 /* Pods-GoogleMaterialIconFont_Tests.debug.xcconfig */,
+				285F71C2F468D307C1EC920D /* Pods-GoogleMaterialIconFont_Tests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		D9B0935EBAE548157759CFA5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6588275EF539A040B1020BFA /* Pods_GoogleMaterialIconFont_Example.framework */,
-				4BA513D73FB52D9140B4FED0 /* Pods_GoogleMaterialIconFont_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,12 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GoogleMaterialIconFont_Example" */;
 			buildPhases = (
-				B8B5AE89D5260FD89C484882 /* Check Pods Manifest.lock */,
+				05733410B28685C79C099EA1 /* 📦 Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BCE034433B1B945F5AF66FF5 /* Embed Pods Frameworks */,
-				947200526ECF32A59437681C /* Copy Pods Resources */,
+				722E455890DD1FEF80A60DA8 /* 📦 Embed Pods Frameworks */,
+				D0676592D3C08D25893CE927 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,12 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GoogleMaterialIconFont_Tests" */;
 			buildPhases = (
-				D544F3955E359ACB3907496C /* Check Pods Manifest.lock */,
+				D4898C62EFC91F4FE49F7EDA /* 📦 Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				BF8DD05C614EFCCD545E5C14 /* Embed Pods Frameworks */,
-				08D845120011BD7787C3EA06 /* Copy Pods Resources */,
+				3827DC77C29C8B55A5DAD222 /* 📦 Embed Pods Frameworks */,
+				47B30396B86EDA4D7DEC279F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,44 +265,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08D845120011BD7787C3EA06 /* Copy Pods Resources */ = {
+		05733410B28685C79C099EA1 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		947200526ECF32A59437681C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8B5AE89D5260FD89C484882 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,29 +280,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		BCE034433B1B945F5AF66FF5 /* Embed Pods Frameworks */ = {
+		3827DC77C29C8B55A5DAD222 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF8DD05C614EFCCD545E5C14 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,14 +295,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D544F3955E359ACB3907496C /* Check Pods Manifest.lock */ = {
+		47B30396B86EDA4D7DEC279F /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		722E455890DD1FEF80A60DA8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0676592D3C08D25893CE927 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4898C62EFC91F4FE49F7EDA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,7 +490,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90276D36E8E3697753CFDCAC /* Pods-GoogleMaterialIconFont_Example.debug.xcconfig */;
+			baseConfigurationReference = 93B8BE19A9C84D82C0337E05 /* Pods-GoogleMaterialIconFont_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleMaterialIconFont/Info.plist;
@@ -503,7 +503,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F6D4E742B32F08383C35A3 /* Pods-GoogleMaterialIconFont_Example.release.xcconfig */;
+			baseConfigurationReference = 1882CEBAF676C2B314B6E60A /* Pods-GoogleMaterialIconFont_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleMaterialIconFont/Info.plist;
@@ -516,7 +516,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 705365307D500EC6A54C3286 /* Pods-GoogleMaterialIconFont_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4B44FC9AB0267AECA46EF7A1 /* Pods-GoogleMaterialIconFont_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -537,7 +537,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13BEF0FB65AD5752A22DA0DF /* Pods-GoogleMaterialIconFont_Tests.release.xcconfig */;
+			baseConfigurationReference = 285F71C2F468D307C1EC920D /* Pods-GoogleMaterialIconFont_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
