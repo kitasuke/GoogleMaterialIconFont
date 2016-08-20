@@ -21,15 +21,16 @@ public extension NSString {
 }
 
 public extension UIFont {
+    private static let fontLoaderHandler: (String) -> Void = {
+        FontLoader.loadFont($0)
+    }
+    
     public static func materialIconOfSize(_ size: CGFloat) -> UIFont {
-        var onceToken: Int = 0
         let filename = "MaterialIcons-Regular"
         let fontname = "Material Icons"
 
         if UIFont.fontNames(forFamilyName: fontname).count == 0 {
-            dispatch_once(&onceToken, { () -> Void in
-                FontLoader.loadFont(filename)
-            })
+            fontLoaderHandler(filename)
         }
         return UIFont(name: fontname, size: size)!
     }
@@ -42,20 +43,26 @@ private class FontLoader {
         let fileExtension = "ttf"
         
         let fontURL: URL
-        if identifier?.hasPrefix("org.cocoapods") == true {
-            fontURL = bundle.url(forResource: name, withExtension: fileExtension, subdirectory: "GoogleMaterialIconFont.bundle")!
-        } else {
-            fontURL = bundle.url(forResource: name, withExtension: fileExtension)!
+        switch identifier?.hasPrefix("org.cocoapods") {
+        case (let cocoapods?) where cocoapods:
+            guard let url = bundle.url(forResource: name, withExtension: fileExtension, subdirectory: "GoogleMaterialIconFont.bundle") else { fatalError("\(name) not found")}
+            fontURL = url
+        default:
+            guard let url = bundle.url(forResource: name, withExtension: fileExtension) else { fatalError("\(name) not found") }
+            fontURL = url
         }
         
-        let data = try? Data(contentsOf: fontURL)
-        let provider = CGDataProvider(data: data as! CFData)
-        let font = CGFont(provider!)
+        guard let data = try? Data(contentsOf: fontURL),
+            let cfData = data as? CFData,
+            let provider = CGDataProvider(data: cfData) else { return }
+        let font = CGFont(provider)
         
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {
-            let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
-            let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
+            guard let error = error,
+                let nsError = error.takeUnretainedValue() as? NSError else { return }
+            
+            let errorDescription: CFString = CFErrorCopyDescription(error.takeUnretainedValue())
             NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
         }
     }
