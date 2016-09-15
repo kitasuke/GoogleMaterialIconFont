@@ -48,10 +48,9 @@ private class FontLoader {
             fontURL = bundle.URLForResource(name, withExtension: fileExtension)!
         }
         
-        guard let data = try? Data(contentsOf: fontURL),
-            let cfData = data as? CFData,
-            let provider = CGDataProvider(data: cfData) else { return }
-        let font = CGFont(provider)
+        let data = NSData(contentsOfURL: fontURL)
+        let provider = CGDataProviderCreateWithCFData(data!)
+        let font = CGFontCreateWithDataProvider(provider!)
         
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {
