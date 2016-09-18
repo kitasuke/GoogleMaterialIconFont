@@ -38,11 +38,8 @@ label.font = [UIFont materialIconOfSize:32];
 ## Requirements
 
 iOS8+  
-Swift 1.2+  
-Xcode 6.3+  
-
-for iOS7 support  
-Follow [Manual usage instruction](#Manual Usage)
+Swift 2.3+  
+Xcode 8.0+  
 
 ## Installation
 
@@ -53,6 +50,14 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "GoogleMaterialIconFont"
+
+post_install do |installer|
+ installer.pods_project.targets.each do |target|
+   target.build_configurations.each do |config|
+     config.build_settings['SWIFT_VERSION'] = '2.3'
+   end
+ end
+end
 ```
 
 Then, run `pod install`
@@ -70,16 +75,11 @@ GoogleMaterialIconFont is available through Carthage.
 To install GoogleMaterialIconFont into your Xcode project using Carthage, specify it in your Cartfile:
 
 `github "kitasuke/GoogleMaterialIconFont"`
-Then, run carthage update
+Then, run `carthage update --toolchain com.apple.dt.toolchain.Swift_2_3`
 
 You can see `Carthage/Build/iOS/GoogleMaterialIconFont.framework` now, so drag and drop it to `Embedded Binaries` in `General` menu tab with your project.
 
-In case you haven't installed Carthage yet, run the following command
-
-```ternimal
-$ brew update
-$ brew install carthage
-```
+In case you haven't installed Carthage yet, download the latest pkg from [Carthage](https://github.com/Carthage/Carthage/releases)
 
 ### <a name="Manual Usage">Manual
 
