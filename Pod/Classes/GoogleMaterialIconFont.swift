@@ -26,12 +26,16 @@ public extension UIFont {
         let filename = "MaterialIcons-Regular"
         let fontname = "Material Icons"
 
-        if UIFont.fontNamesForFamilyName(fontname).count == 0 {
+        if UIFont.fontNamesForFamilyName(fontname).isEmpty {
             dispatch_once(&onceToken, { () -> Void in
                 FontLoader.loadFont(filename)
             })
         }
-        return UIFont(name: fontname, size: size)!
+        
+        guard let font = UIFont(name: fontname, size: size) else {
+            fatalError("\(fontname) not found")
+        }
+        return font
     }
 }
 
@@ -41,16 +45,18 @@ private class FontLoader {
         let identifier = bundle.bundleIdentifier
         let fileExtension = "ttf"
         
-        let fontURL: NSURL
+        let url: NSURL?
         if identifier?.hasPrefix("org.cocoapods") == true {
-            fontURL = bundle.URLForResource(name, withExtension: fileExtension, subdirectory: "GoogleMaterialIconFont.bundle")!
+            url = bundle.URLForResource(name, withExtension: fileExtension, subdirectory: "GoogleMaterialIconFont.bundle")
         } else {
-            fontURL = bundle.URLForResource(name, withExtension: fileExtension)!
+            url = bundle.URLForResource(name, withExtension: fileExtension)
         }
         
-        let data = NSData(contentsOfURL: fontURL)
-        let provider = CGDataProviderCreateWithCFData(data!)
-        let font = CGFontCreateWithDataProvider(provider!)
+        guard let fontURL = url else { fatalError("\(name) not found in bundle") }
+        
+        guard let data = NSData(contentsOfURL: fontURL),
+            let provider = CGDataProviderCreateWithCFData(data) else { return }
+        let font = CGFontCreateWithDataProvider(provider)
         
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {
