@@ -169,12 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GoogleMaterialIconFont_Example" */;
 			buildPhases = (
-				05733410B28685C79C099EA1 /* 📦 Check Pods Manifest.lock */,
+				05733410B28685C79C099EA1 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				722E455890DD1FEF80A60DA8 /* 📦 Embed Pods Frameworks */,
-				D0676592D3C08D25893CE927 /* 📦 Copy Pods Resources */,
+				722E455890DD1FEF80A60DA8 /* [CP] Embed Pods Frameworks */,
+				D0676592D3C08D25893CE927 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,12 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GoogleMaterialIconFont_Tests" */;
 			buildPhases = (
-				D4898C62EFC91F4FE49F7EDA /* 📦 Check Pods Manifest.lock */,
+				D4898C62EFC91F4FE49F7EDA /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				3827DC77C29C8B55A5DAD222 /* 📦 Embed Pods Frameworks */,
-				47B30396B86EDA4D7DEC279F /* 📦 Copy Pods Resources */,
+				3827DC77C29C8B55A5DAD222 /* [CP] Embed Pods Frameworks */,
+				47B30396B86EDA4D7DEC279F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,29 +265,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05733410B28685C79C099EA1 /* 📦 Check Pods Manifest.lock */ = {
+		05733410B28685C79C099EA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3827DC77C29C8B55A5DAD222 /* 📦 Embed Pods Frameworks */ = {
+		3827DC77C29C8B55A5DAD222 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,14 +295,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		47B30396B86EDA4D7DEC279F /* 📦 Copy Pods Resources */ = {
+		47B30396B86EDA4D7DEC279F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,14 +310,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Tests/Pods-GoogleMaterialIconFont_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		722E455890DD1FEF80A60DA8 /* 📦 Embed Pods Frameworks */ = {
+		722E455890DD1FEF80A60DA8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,14 +325,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D0676592D3C08D25893CE927 /* 📦 Copy Pods Resources */ = {
+		D0676592D3C08D25893CE927 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,19 +340,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMaterialIconFont_Example/Pods-GoogleMaterialIconFont_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D4898C62EFC91F4FE49F7EDA /* 📦 Check Pods Manifest.lock */ = {
+		D4898C62EFC91F4FE49F7EDA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -448,6 +448,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -484,6 +485,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
