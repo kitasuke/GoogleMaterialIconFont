@@ -18,7 +18,7 @@ See example project or [Material icons](https://www.google.com/design/icons/) mo
 ## Usage
 
 ### Swift
-
+ 
 import `GoogleMaterialIconFont`
 
 ```swift
