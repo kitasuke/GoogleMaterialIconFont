@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GoogleMaterialIconFont"
-  s.version          = "0.4.0"
+  s.version          = "0.5.0"
   s.summary          = "Google Material Design Icons for ObjC or Swift project"
   s.homepage         = "https://github.com/kitasuke/GoogleMaterialIconFont"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
